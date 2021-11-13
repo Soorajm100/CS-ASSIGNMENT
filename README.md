@@ -1,7 +1,7 @@
 
 # ASSIGNMENT ON KERNEL MODULES
 
-This aassignments mainly deals with operations performed  with kernel modules.
+This assignments mainly deals with operations performed  with kernel modules.
 
 ## Introduction
 
