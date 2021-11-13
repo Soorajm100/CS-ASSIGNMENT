@@ -20,3 +20,5 @@ The first and primary task is to create and load the kernel module into the kern
                    lsmod
 The command will list  all the kernel modules providing description by three columns that is name , size ,used by 
 
+The following code is available we have to make a file called simple.c and paste the code given from the textbook (Reference:<b> Operating system Concepts Abraham Silberschatz , Peter Galvin , Greg Gagne </b>)
+
