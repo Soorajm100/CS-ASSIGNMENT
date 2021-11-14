@@ -1,5 +1,10 @@
+## CS252 -ASSIGNMENT KERNEL MODULES
 
-# ASSIGNMENT ON KERNEL MODULES
+<b>Name : </b> Sooraj M Poojary  <br/>
+<b>Roll no : </b> 191ME184      <br/>
+<b>Batch : </b> M2    <br/>
+<b>Branch : </b> Mechanical Engineering    <br/>
+<b>Type of projects: </b> 1 Medium level Question Chapter 2 Project 1 - Individual   <br/>
 
 This assignments mainly deals with operations performed  with kernel modules.
 
@@ -106,4 +111,20 @@ clean:
       dmesg | tail 
 
   This generates the message Loading Kernel Modules.
+  
+  
+  ## Part 2 of Assignment
 
+* We can add the necessary header files given in the textbook and claculate the time as well as jiffies and HZ as well.
+* As kernel modules are running within the kernel, it is possible to obtain values and call functions that are available only in the kernel and not to regular user applications. For example, the Linux include file <linux/hash.h> defines several hashing functions for use within the kernel. This file also defines the constant value GOLDEN RATIO PRIME
+* The logic for the different variables and instructions must be followed and printed that is GOLDEN_RATIO_NUMBER and Jiffies and HZ as well GCD.
+
+* <b> Then the edited simple.c file must be compiled by make and then loaded and executed by dmesg </b>
+  
+ * It prints all the necessary values.
+
+
+
+## Part 3   Creation of proc files
+
+* Here we create the proc files by just editing the source code given from the textbook
