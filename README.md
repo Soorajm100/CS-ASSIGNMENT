@@ -24,22 +24,31 @@ The following code is available we have to make a file called simple.c and paste
 
 ```c
 
-#include <linux/init.h>
-#include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/init.h>
 
-/* This function is called when the module is loaded. */ int simple_init(void)
-{
+/* Meta Information */
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("SOORAJ POOJARY CS ASSIGNMENT");
+MODULE_DESCRIPTION("Simple Module");
+
+/**
+ * @brief This function is called, when the module is loaded into the kernel
+ */
+static int __init simple_init(void) {
+	printk("Loading the Kernel Module!\n");
+	return 0;
 }
-/* This function is called when the module is removed. */ void simple exit(void)
-{
-printk(KERN INFO "Removing Module\n"); }
-/* Macros for registering module entry and exit points. */ module_init(simple init);
-printk(KERN INFO "Loading Module\n");
-return 0;
-module_exit(simple exit); 
-MODULE_LICENSE("GPL"); 
-MODULE_DESCRIPTION("Simple Module"); MODULE_AUTHOR("SGG");
+
+/**
+ * @brief This function is called, when the module is removed from the kernel
+ */
+static void __exit simple_exit(void) {
+	printk("Removing the Kernel Bye!\n");
+}
+
+module_init(simple_init);
+module_exit(simple_exit);
 ```
 
 * Here we will find the function simple_init() which is the module entry point, it  represents the function that is invoked when the module is loaded into the kernel. Similarly, the simple_exit() function is the module exit point—the function that is called when the module is removed from the kernel.
