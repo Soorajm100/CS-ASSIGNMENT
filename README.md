@@ -128,3 +128,44 @@ clean:
 ## Part 3   Creation of proc files
 
 * Here we create the proc files by just editing the source code given from the textbook
+
+* The /proc file system is a “pseudo” file system that exists only in kernel mem-
+ory and is used primarily for querying various kernel and per-process statistics.
+
+* Here I used **simple_init and simple_exit** as the entry and exit point of the module.
+
+* Here in  the first file we define the proc name to be jiffies. Name the file as suitable i named it as new
+* The second file proc name we define as seconds. Since we call it by cat command.Name the file as suitable i named it as new_seconds
+* Slight changes has to be made static struct function as i faced error i changed the data type to static const struct proc_ops and defined the variable p_read for proc_ops took reference from **stackoverflow**
+
+
+
+
+
+## Execution of proc files
+
+* In this we have to to print the values of jiffies.
+* with sprintf function we will be able to print the values of buffer which was stored in rv variable.
+* The program prints the values of jiffies and time respectively.
+
+###  The Proceedure to execute the program:
+
+* Type the command 
+      
+      make 
+  to compile the file change the make file accordingly by changing the code so that it could compile the right file.
+
+ * Load the file. In my case the filename is new.ko so
+
+        sudo insmod new.ko  
+
+ * Make sure to check whether the file has been loaded to kernel or not 
+               
+               lsmod | grep new
+
+ * After that we type the command as 
+
+               cat /proc/jiffies
+ * It prints the jiffies 
+
+ * Similar proceedure can be done for new_seconds.c file in order to print the seconds.
