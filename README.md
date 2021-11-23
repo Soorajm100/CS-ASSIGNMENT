@@ -18,6 +18,24 @@ This assignments mainly deals with operations performed  with kernel modules.
 
 
 
+## Environment Setup 
+ 
+* I used for Oracle Virtual Box to install ubutnu in it.
+* First download the set up file for VM Box
+* https://www.virtualbox.org/wiki/Downloads
+* After setting up VM Box 
+* Download Ubuntu 20.04 LTS from 
+* https://ubuntu.com/download/desktop
+* Follow the instruction given in following youtube vedio
+* https://youtu.be/x5MhydijWmc
+* Also after setting up ubuntu update all the packages required .
+* I  refereshed my understanding  about linux commands from :
+* https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners
+* You are all set for Project  👍
+
+
+
+
 ## Creation of Kernel Modules
 
 The first and primary task is to create and load the kernel module into the kernel.we will be able to list all the kernel module by using the command 
