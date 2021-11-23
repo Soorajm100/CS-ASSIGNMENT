@@ -20,7 +20,7 @@ This assignments mainly deals with operations performed  with kernel modules.
 
 ## Environment Setup 
  
-* I used for Oracle Virtual Box to install ubutnu in it.
+* I used  Oracle Virtual Box to install ubutnu in it.
 * First download the set up file for VM Box
 * https://www.virtualbox.org/wiki/Downloads
 * After setting up VM Box 
