@@ -97,7 +97,7 @@ module_exit(simple_exit);
 
         MODULE LICENSE(), MODULE DESCRIPTION(), and MODULE AUTHOR() 
  ```
-The above lines represent details regarding the software license, description of the module, and author. For our purposes, we do not depend on this information, but we include it because it is standard practice in developing kernel modules. This kernel module simple.c is compiled using the Makefile accompanying the source code with this project. To compile the module, enter the following on the command line:
+The above lines represent details regarding the software license, description of the module, and author. For our purposes, we do not depend on this information, but we include it because it is standard practice in developing kernel modules. This kernel module simple.c is compiled using the Makefile accompanying the source code with this project.
 
 
 ## Creation of Makefile
