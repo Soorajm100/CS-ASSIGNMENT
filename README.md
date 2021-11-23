@@ -34,6 +34,15 @@ This assignments mainly deals with operations performed  with kernel modules.
 * You are all set for Project  👍
 
 
+## Working-Questions
+
+* Print out the value of GOLDEN RATIO PRIME in the simple init() function.
+* Print out the greatest common divisor of 3,300 and 24 in the simple exit() function
+* Print out the values of jiffies and HZ in the simple init() function.
+* Print out the value of jiffies in the simple exit() function.
+* Design a kernel module that creates a /proc file named /proc/jiffies that reports the current value of jiffies when the /proc/jiffies file is read, such as with the command cat /proc/jiffies.Be sure to remove /proc/jiffies when the module is removed.
+*  Design a kernel module that creates a proc file named /proc/seconds that reports the number of elapsed seconds since the kernel module was loaded. This will involve using the value of jiffies as well as the HZ rate. When a user enters the commandcat /proc/seconds your kernel module will report the number of seconds that have elapsed since the kernel module was first loaded. Be sure to remove /proc/seconds when the module is removed.
+
 
 
 ## Creation of Kernel Modules
