@@ -34,6 +34,15 @@ This assignments mainly deals with operations performed  with kernel modules.
 * You are all set for Project  👍
 
 
+## Issues -Faced
+
+* Initially it was difficult to understand but after reading the manual it become quite easy. 
+* Took help from online youtube vedios and got deep knowledge .
+* Faced issues while compiling so refferred stack overflow  for solutions.
+* Did some research understood the code provided in the text or manual and modified it.
+
+
+
 ## Working-Questions
 
 * Print out the value of GOLDEN RATIO PRIME in the simple init() function.
