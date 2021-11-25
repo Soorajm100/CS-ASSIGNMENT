@@ -186,7 +186,7 @@ ory and is used primarily for querying various kernel and per-process statistics
 * Here in  the first file we define the proc name to be jiffies. Name the file as suitable i named it as new_jiffies
 * The second file proc name we define as seconds. Since we call it by cat command.Name the file as suitable i named it as new_seconds
 * Slight changes has to be made static struct function as i faced error i changed the data type to static const struct proc_ops and defined the variable p_read for proc_ops took reference from **stackoverflow**
-* we create the new /proc/jiffies and /proc/seconds entry using the proc create() function.
+* we create the new /proc/jiffies and /proc/seconds entry using the proc_create() function.
 * This function is passed p_ops ,which contains a reference to a struct proc_ops. 
 * This struct initializes the  and .proc_read members. The value of .proc_read is the name of the function proc_read() that is to be called whenever /proc/hello is read.
 * copy_to_user() :This function copies the contents of kernel memory buffer to the variable usr_buf , which exists in user space.
