@@ -167,7 +167,7 @@ clean:
 
 * We can add the necessary header files given in the textbook and claculate the time as well as jiffies and HZ as well.
 * As kernel modules are running within the kernel, it is possible to obtain values and call functions that are available only in the kernel and not to regular user applications. For example, the Linux include file <linux/hash.h> defines several hashing functions for use within the kernel. This file also defines the constant value GOLDEN RATIO PRIME
-* The logic for the different variables and instructions must be followed and printed that is GOLDEN_RATIO_NUMBER and Jiffies and HZ as well GCD.
+* The logic for the different variables and instructions must be followed and printed that is GOLDEN_RATIO_PRIME and Jiffies and HZ as well GCD.
 
 * <b> Then the edited simple.c file must be compiled by make and then loaded and executed by dmesg </b>
   
