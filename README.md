@@ -165,8 +165,8 @@ clean:
   
   ## Part 2 of Assignment
 
-* We can add the necessary header files given in the textbook and claculate the time as well as jiffies and HZ as well.
-* As kernel modules are running within the kernel, it is possible to obtain values and call functions that are available only in the kernel and not to regular user applications. For example, the Linux include file <linux/hash.h> defines several hashing functions for use within the kernel. This file also defines the constant value GOLDEN RATIO PRIME
+* We can add the necessary header files given in the textbook and calculate the time as well as jiffies and HZ as well.
+* As kernel modules are running within the kernel, it is possible to obtain values and call functions that are available only in the kernel and not to regular user applications. For example, the Linux include file <linux/hash.h> defines several hashing functions for use within the kernel. This file also defines the constant value GOLDEN_RATIO_PRIME
 * The logic for the different variables and instructions must be followed and printed that is GOLDEN_RATIO_PRIME and Jiffies and HZ as well GCD.
 * The values of jiffies , HZ and GCD are defined in <linux/jiffies.h> , <asm/param.h> and <linux/gcd.h> respectively
 * <b> Then the edited simple.c file must be compiled by make and then loaded and executed by dmesg </b>
@@ -181,7 +181,7 @@ clean:
 * The /proc file system is a “pseudo” file system that exists only in kernel mem-
 ory and is used primarily for querying various kernel and per-process statistics.
 
-* Here I used **simple_init and simple_exit** as the entry and exit point of the module.
+* Here I used **simple_init and simple_exit** as the entry and exit point of the module by using the macros module_init and module_exit
 
 * Here in  the first file we define the proc name to be jiffies. Name the file as suitable i named it as new_jiffies
 * The second file proc name we define as seconds. Since we call it by cat command.Name the file as suitable i named it as new_seconds
@@ -190,6 +190,8 @@ ory and is used primarily for querying various kernel and per-process statistics
 * This function is passed p_ops ,which contains a reference to a struct proc_ops. 
 * This struct initializes the  and .proc_read members. The value of .proc_read is the name of the function proc_read() that is to be called whenever /proc/hello is read.
 * copy_to_user() :This function copies the contents of kernel memory buffer to the variable usr_buf , which exists in user space.
+* Each time the /proc/jiffies or /proc/seconds file is read, the proc_read() function is called repeatedly until it returns 0, so there must be logic to ensure that this function returns 0 once it has collected the data .
+* Finally /proc/jiffies or /proc/seconds will be removed in the exit point that is at module_exit macro having simple_exit fucntion as parameter.
 
 
 
