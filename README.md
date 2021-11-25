@@ -24,7 +24,7 @@ This assignments mainly deals with operations performed  with kernel modules.
 * First download the set up file for VM Box from  <a href='https://www.virtualbox.org/wiki/Downloads' > here </a>
 * After setting up VM Box 
 * Download Ubuntu 20.04 LTS from <a href='https://ubuntu.com/download/desktop' > here </a>
-* Follow the instruction given in following youtube vedio from<a href='https://youtu.be/x5MhydijWmc'>here</a>
+* Follow the instruction given in following youtube vedio from<a href='https://youtu.be/x5MhydijWmc'> here</a>
 * Also after setting up ubuntu update all the packages required .
 * I  refereshed my understanding  about linux commands from : <a href='https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners'> here</a>
 * You are all set for Project  👍
