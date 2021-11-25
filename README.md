@@ -248,6 +248,7 @@ ory and is used primarily for querying various kernel and per-process statistics
 <center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/proc_seconds_created.png?raw=true' height= '400px' width='800px'></center>
 <center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/proc_seconds_removed.png?raw=true' height= '400px' width='800px'></center>
 <center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/seconds_sample.png?raw=true' height= '400px' width='800px'></center>
+
 ## References
 * You can download Ubuntu from <a href = 'https://ubuntu.com/download/desktop' target="_blank"  >  here </a>
 * You can check the tutorial to understand from <a href ='https://youtu.be/4tgluSJDA_E' target="_blank" rel="noopener noreferrer"> here </a>
