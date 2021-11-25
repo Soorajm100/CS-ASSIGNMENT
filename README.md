@@ -183,7 +183,7 @@ ory and is used primarily for querying various kernel and per-process statistics
 
 * Here I used **simple_init and simple_exit** as the entry and exit point of the module.
 
-* Here in  the first file we define the proc name to be jiffies. Name the file as suitable i named it as new
+* Here in  the first file we define the proc name to be jiffies. Name the file as suitable i named it as new_jiffies
 * The second file proc name we define as seconds. Since we call it by cat command.Name the file as suitable i named it as new_seconds
 * Slight changes has to be made static struct function as i faced error i changed the data type to static const struct proc_ops and defined the variable p_read for proc_ops took reference from **stackoverflow**
 * we create the new /proc/jiffies and /proc/seconds entry using the proc create() function.
