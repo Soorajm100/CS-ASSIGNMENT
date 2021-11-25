@@ -51,6 +51,7 @@ This Project mainly deals with operations performed  with kernel modules that is
 * Faced issues while compiling so refferred stack overflow  for solutions.
 * Did some research understood the code provided in the text or manual and modified it.
 * Had to change the proc file system code inorder to make it work .
+* I used git commands to push the files sometimes faced errors but managed to do it successfully.
 
 
 
