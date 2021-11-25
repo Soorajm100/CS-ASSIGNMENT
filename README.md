@@ -205,9 +205,9 @@ ory and is used primarily for querying various kernel and per-process statistics
       make 
   to compile the file change the make file accordingly by changing the code so that it could compile the right file.
 
- * Load the file. In my case the filename is new.ko so
+ * Load the file. In my case the filename is new_jiffies.ko so
 
-        sudo insmod new.ko  
+        sudo insmod new_jiffies.ko  
 
  * Make sure to check whether the file has been loaded to kernel or not 
                
@@ -225,10 +225,10 @@ ory and is used primarily for querying various kernel and per-process statistics
 <center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/simple_all_values.png?raw=true' height= '400px' width='800px'></center>
 <center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/simple_module_remove.png?raw=true' height= '400px' width='800px'></center>
 
-## Output for new.c program file 
-<center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/jiffies_value.png?raw=true' height= '400px' width='800px'></center>
-<center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/proc_jiffies_created.png?raw=true' height= '400px' width='800px'></center>
-<center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/proc_jiffies_removed.png?raw=true' height= '400px' width='800px'></center>
+## Output for new_jiffies.c program file 
+<center><img src='' height= '400px' width='800px'></center>
+<center><img src='' height= '400px' width='800px'></center>
+<center><img src='' height= '400px' width='800px'></center>
 
 ## Output for new_seconds.c program file 
 <center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/value_of_time_elapsed.png?raw=true' height= '400px' width='800px'></center>
