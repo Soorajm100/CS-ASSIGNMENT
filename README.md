@@ -226,9 +226,9 @@ ory and is used primarily for querying various kernel and per-process statistics
 <center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/simple_module_remove.png?raw=true' height= '400px' width='800px'></center>
 
 ## Output for new_jiffies.c program file 
-<center><img src='' height= '400px' width='800px'></center>
-<center><img src='' height= '400px' width='800px'></center>
-<center><img src='' height= '400px' width='800px'></center>
+<center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/jiffies_value.png?raw=true' height= '400px' width='800px'></center>
+<center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/jiffies_created.png?raw=true' height= '400px' width='800px'></center>
+<center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/jiffies_removed.png?raw=true' height= '400px' width='800px'></center>
 
 ## Output for new_seconds.c program file 
 <center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/value_of_time_elapsed.png?raw=true' height= '400px' width='800px'></center>
