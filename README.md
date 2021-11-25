@@ -6,15 +6,22 @@
 <b>Branch : </b> Mechanical Engineering    <br/>
 <b>Type of projects: </b> 1 Medium level Question Chapter 2 Project 1 - Individual   <br/>
 
-This assignments mainly deals with operations performed  with kernel modules.
+## Aim 
+This Project mainly deals with operations performed  with kernel modules that is to load and remove the module from kernel and to create a entry in proc file system and to access the contents.
 
 ## Introduction
-
-
 
 * In this project, we  will be learning how to create a kernel module and load it into the Linux kernel. We have to use  the terminal application to compile the programs, 
 * We will have to enter commands on the command line to manage the modules in the kernel.
 * we will discover, the advantage of developing kernel modules is that it is a relatively easy method of interacting with the kernel, thus allowing us  to write programs that directly invoke kernel functions
+* Here is a image representation of how kernel interacts with the user and hardware.
+
+<figure>
+<center><img src='https://static.packt-cdn.com/products/9781838646554/graphics/assets/9a7b4405-e9e4-431b-b068-0883d1189150.png' height = '700px' width='700px'>
+  <figcaption><b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Figure 1 : Image from packetpub.com</b></figcaption></center>
+</figure>
+
+
 
 
 
@@ -27,6 +34,13 @@ This assignments mainly deals with operations performed  with kernel modules.
 * Follow the instruction given in following youtube vedio from<a href='https://youtu.be/x5MhydijWmc'> here</a>
 * Also after setting up ubuntu update all the packages required .
 * I  refereshed my understanding  about linux commands from : <a href='https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners'> here</a>
+* Installed  gedit for manual editing .Else you could use vim editor.
+* gedit is the text editor of the linux environment.
+* Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient
+* Had to set up VS -Code in Ubuntu for formatting purpose .
+* You can download Vs-code studio from <a href='https://code.visualstudio.com/download'> here </a>
+* For installation of VS-code refer <a href='https://youtu.be/BEJUdkPemYY' > this </a>
+* To install Prettier to format code refer <a href ='https://youtu.be/Gmz27agvLYg'> this </a>
 * You are all set for Project  👍
 
 
@@ -36,6 +50,10 @@ This assignments mainly deals with operations performed  with kernel modules.
 * Took help from online youtube vedios and got deep knowledge .
 * Faced issues while compiling so refferred stack overflow  for solutions.
 * Did some research understood the code provided in the text or manual and modified it.
+* Had to change the proc file system code inorder to make it work .
+
+
+
 
 
 
@@ -201,6 +219,21 @@ ory and is used primarily for querying various kernel and per-process statistics
  * It prints the jiffies 
 
  * Similar proceedure can be done for new_seconds.c file in order to print the seconds.
+
+## Output for simple.c program file
+
+<center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/simple_all_values.png?raw=true' height= '400px' width='800px'></center>
+<center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/simple_module_remove.png?raw=true' height= '400px' width='800px'></center>
+
+## Output for new.c program file 
+<center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/jiffies_value.png?raw=true' height= '400px' width='800px'></center>
+<center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/proc_jiffies_created.png?raw=true' height= '400px' width='800px'></center>
+<center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/proc_jiffies_removed.png?raw=true' height= '400px' width='800px'></center>
+
+## Output for new_seconds.c program file 
+<center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/value_of_time_elapsed.png?raw=true' height= '400px' width='800px'></center>
+<center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/proc_seconds_created.png?raw=true' height= '400px' width='800px'></center>
+<center><img src='https://github.com/Soorajm100/CS-ASSIGNMENT/blob/main/output_images/proc_seconds_removed.png?raw=true' height= '400px' width='800px'></center>
 
 ## References
 * You can download Ubuntu from <a href = 'https://ubuntu.com/download/desktop' target="_blank"  >  here </a>
