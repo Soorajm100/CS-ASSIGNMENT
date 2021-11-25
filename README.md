@@ -22,15 +22,15 @@ This assignments mainly deals with operations performed  with kernel modules.
  
 * I used  Oracle Virtual Box to install ubutnu in it.
 * First download the set up file for VM Box
-* https://www.virtualbox.org/wiki/Downloads
+* <a href='https://www.virtualbox.org/wiki/Downloads' >here </a>
 * After setting up VM Box 
 * Download Ubuntu 20.04 LTS from 
-* https://ubuntu.com/download/desktop
+* <a href='https://ubuntu.com/download/desktop' >here </a>
 * Follow the instruction given in following youtube vedio
-* https://youtu.be/x5MhydijWmc
+* <a href='https://youtu.be/x5MhydijWmc'>here</a>
 * Also after setting up ubuntu update all the packages required .
 * I  refereshed my understanding  about linux commands from :
-* https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners
+* <a href='https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners'>here</a>
 * You are all set for Project  👍
 
 
