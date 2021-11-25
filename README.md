@@ -207,7 +207,7 @@ ory and is used primarily for querying various kernel and per-process statistics
  * Similar proceedure can be done for new_seconds.c file in order to print the seconds.
 
 ## References
-* You can download Ubuntu from <a href = 'https://ubuntu.com/download/desktop' target="_blank" rel="noopener noreferrer" >  here </a>
+* You can download Ubuntu from <a href = 'https://ubuntu.com/download/desktop' target="_blank"  >  here </a>
 * You can check the tutorial to understand from <a href ='https://youtu.be/4tgluSJDA_E' target="_blank" rel="noopener noreferrer"> here </a>
 * You can refer the manual for better understanding <a href = 'https://bit.ly/3xo1J7z' target="_blank" rel="noopener noreferrer" > here </a>
 * You can install ubuntu by reffereing <a href ='https://youtu.be/x5MhydijWmc'  target="_blank" rel="noopener noreferrer">this </a>
