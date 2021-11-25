@@ -194,7 +194,14 @@ ory and is used primarily for querying various kernel and per-process statistics
 * Finally /proc/jiffies or /proc/seconds will be removed in the exit point that is at module_exit macro having simple_exit fucntion as parameter.
 
 
+## Logic of Jiffies and Time elapsed :
 
+* Jiffies is the total number of interrupts since when the system was at booted. 
+* HZ is the interrupts per second or the frequency of the timer interrupt
+* So we collect the jiffies value at simple_init fucntion at both the programs to keep track of signals system has recived before loading module.
+* Later we collect the jiffies value at simple_exit fucntion as well .
+* We subtract both these variables to get the total interrupts recevied after the module was loaded.
+* This value divided by HZ gives time after the module was first loaded that is nothing but time elapsed
 
 
 ## Execution of proc files
