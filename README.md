@@ -68,7 +68,7 @@ This Project mainly deals with operations performed  with kernel modules that is
 
 
 
-## Creation of Kernel Modules
+## Part 1 Creation of Kernel Module then Loading and Unloading it
 
 The first and primary task is to create and load the kernel module into the kernel.we will be able to list all the kernel module by using the command 
 
